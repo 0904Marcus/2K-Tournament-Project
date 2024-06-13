@@ -1,0 +1,42 @@
+#NavBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 4rem;
+    background-color: white;
+    color: var(--background-color--);
+}
+
+#NavBar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+#NavBar li {
+    border: var(--background-color--) solid .25rem;
+    border-radius: .5rem;
+    transition: 0.3s;
+}
+
+#NavBar li:hover {
+    color: white;
+    box-sizing: border-box;
+    background-color: var(--third-background-color--);
+    border: var(--second-background-color--) solid .25rem;
+    border-radius: .5rem;
+}
+
+#NavBar a {
+    text-decoration: none;
+    color: inherit;
+    padding: .25rem;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+
+}

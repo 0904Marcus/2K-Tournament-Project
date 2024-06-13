@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    background: var(--third-background-color--);
+}
+
+:root {
+    --background-color--: rgb(167, 146, 119);
+    --second-background-color--: rgb(209, 187, 158);
+    --third-background-color--: rgb(234, 216, 192);
+    --accent-color--: rgb(255, 242, 225);
+}
