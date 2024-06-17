@@ -3,7 +3,8 @@ import NavBar from './components/NavBar'
 import "./styleSheets/Variables.css"
 import Home from './pages/Home'
 import Team from './pages/Team'
-import TournamentTree from './pages/TournamentTree'
+import TournamentTreePage from './pages/TournamentTree.tsx'
+import "./styleSheets/TournamentTree.css"
 function App() {
 
   return (
@@ -13,10 +14,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/teams' element={<Team />}/>
-        <Route path='/tournamentTree' element={<TournamentTree />}/>
+        <Route path='/tournamentTree' element={<TournamentTreePage />}/>
       </Routes>
     </div>
-
 
     </>
   )

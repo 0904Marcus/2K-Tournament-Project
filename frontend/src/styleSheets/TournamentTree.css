@@ -1,0 +1,58 @@
+#TournamentTreePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+#tournamentTree{
+    display: flex;
+    flex-direction: row;
+}
+.bracket{
+    display: flex;
+    flex-direction: row;
+}
+.bracketContainerOben{
+    height: 100px;
+    width: 180px;
+    border: 3px solid Black;
+    padding: 1rem;
+    border-radius: .75rem;
+}
+.bracketContainerUnten{
+    height: 100px;
+    width: 180px;
+    margin-top: 16%;
+    border: 3px solid Black;
+    padding: 1rem;
+    border-radius: .75rem;
+}
+.gabelungUnten{
+    display: flex;
+    height: 90px;
+    width: 100px;
+    margin-top: 16%;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+}
+.gabelungOben{
+    display: flex;
+    height: 90px;
+    width: 100px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.zone-2-verbindung{
+    display: flex;
+    margin-top: 20%;
+    height: 0;
+    width: 100px;
+    border-bottom: 2px solid black;
+}
+
+#BracketRoot{
+    display: flex;
+    flex-direction: row;
+    
+}
